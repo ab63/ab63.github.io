@@ -1,10 +1,12 @@
 ---
 layout: base
 ---
+<script src = "/js/three.r95.min.js"></script>
+<script src= "/js/vanta.dots.min.js"></script>
 
 {% include header.html type="page" %}
 
-<div class="container" role="main">
+<div class="container" id="dots" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       {{ content }}
@@ -23,5 +25,21 @@ layout: base
     </div>
   </div>
 </div>
-
+<script>
+  VANTA.DOTS({
+    el: "#dots",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x727272,
+    color2: 0xffffff,
+    backgroundColor: 0xffffff,
+    spacing: 28.00,
+    size:3.2,
+    showLines: false
+  })
+</script>
 
