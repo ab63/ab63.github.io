@@ -9,11 +9,11 @@ Hey Everyone, this is Part 2 of my update regarding my SoK Journey and probably 
 
 Since my last blog, I got really busy with my college and got less time to work on the website. I took some screenshots whenever I got the time and planned the work to be done.
 
-After 40 about days of coding, taking screenshots, writing documentation, the caligra website is ready, Well almost ready. The only thing that remains is the component selector in the navbar. The task of adding the selector is not that difficult, the difficult part was to add it to the KDE Jekyll theme so that it could be used by all websites old and new. 
+After 40 about days of coding, taking screenshots, writing documentation, the caligra website is ready, Well almost ready. The only thing that remains is the component selector in the navbar. The task of adding the selector is not that difficult, the difficult part was to add it to the KDE Jekyll theme so that it could be used by all websites old and new.
 
 I have managed to complete the task and submitted a [merge request](https://invent.kde.org/websites/jekyll-kde-theme/merge_requests) on the jekyll theme repository. My mentor will check it and hopefully it gets merged soon.
 
-![Calligra Component Selector Gif](/img/selector.gif "Component Selector")
+<img src="/img/selector.gif" class="img-responsive center-block" alt="Calligra Component Selector Gif">
 
 The final website currently looks like this.
 
